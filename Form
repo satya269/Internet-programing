@@ -1,0 +1,71 @@
+<html>  
+    <head>   
+    <title>  
+    Registration Page  
+    </title>  
+    </head>  
+    <body style = "background-color:beige">  
+    <br>  
+    <br>  
+    <border>
+    <form>  
+
+    <label> Firstname </label>         
+    <input type="text" name="firstname" size="15"/> <br> <br>  
+    <label> Middlename: </label>     
+    <input type="text" name="middlename" size="15"/> <br> <br>  
+    <label> Lastname: </label>         
+    <input type="text" name="lastname" size="15"/> <br> <br>  
+
+Dob<input type="date"><br>
+
+
+
+
+    <label>   
+    Course :  
+    </label>   
+    <select>  
+    <option value="">Course</option>  
+    <option value="">cse</option>  
+    <option value="">ai/ml</option>  
+    <option value="">ai/ds</option>  
+    <option value="">ece</option>  
+    <option value="">it</option>  
+
+    </select>  
+
+    <br>  
+    <br>  
+    <label>   
+    Gender :  
+    </label><br>  
+    <input type="radio" name="male"/> Male <br>  
+    <input type="radio" name="female"/> Female <br>  
+    <input type="radio" name="other"/> Other  
+    <br>  
+    <br>  
+
+    <label>   
+    Phone :  
+    </label>  
+    <input type="text" name="country code"  value="+91" size="2"/>   
+    <input type="text" name="phone" size="10"/> <br> <br>  
+    Address  
+    <br>  
+    <textarea cols="80" rows="5" value="address">  
+    </textarea>  
+    <br> <br>  
+    Email:  
+    <input type="email" id="email" name="email"/> <br>    
+    <br> <br>  
+    Password:  
+    <input type="Password" id="pass" name="pass"> <br>   
+    <br> <br>  
+    Re-type password:  
+    <input type="Password" id="repass" name="repass"> <br> <br>  
+    <input type="button" value="Submit"/>  
+</border>
+    </form>  
+    </body>  
+    </html>
