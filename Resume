@@ -1,0 +1,38 @@
+<html>
+<head>
+</head>
+<style>
+body{
+color:violet;
+font-size:25px;
+}
+</style>
+<body style="text-align:left">
+<ol>
+<li>
+Name:V.Satya raj
+</li><br>
+<li>
+Photo:
+<ul><li>
+<img src="C:\Users\User\Desktop\ani.png"></li></ul><br>
+<li>
+Abstract:<br>
+<ul><li>I am applying for a web developer post in your reputed company.</li>
+<li>I am good at full stack development which helps your comapany for easy growth.</li>
+<li>I promise you that i will not let you down in any situations.</li></ul>
+</li><br>
+<li>
+Qualification:<br>
+<ul><li>Carmel Convent High School, CGPA=9.2</li>
+<li>Sri Chaitanya jr.college,CGPA=9.3</li>
+<li>Saveetha School of Engineering, CGPA=8.2</li></ul>
+</li><br>
+<li>
+Skills:
+<ul><li>Good at communication.</li>
+<li>I am skilled at programming languages like java,python and nodejs.</li>
+<li>I am capable of leading the team in a right way.</li></ul>
+</li>
+</body>
+</html>
