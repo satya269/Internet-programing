@@ -1,0 +1,21 @@
+<html>
+   <head>
+      <title>Convert decimal to binary using JavaScript.</title>
+   </head>
+   <body>
+      <h2>Convert decimal to binary using JavaScript <i> toString(2) </i> method.</h2>
+      <h4>Examples of decimal and its binary string.</h4>
+      <div id = "binary"> </div>
+      </body>
+   <script>
+      var binrayOutput = document.getElementById("binary");
+      let decimal = 1435;
+      binrayOutput.innerHTML += "1435 == " + decimal.toString(2) + ". <br/> ";
+      decimal = -1435;
+      binrayOutput.innerHTML += "-1435 == " + (decimal >>> 0).toString(2) + ". <br/> ";
+      decimal = 0;
+      binrayOutput.innerHTML += "0 == " + decimal.toString(2) + ". <br/> ";
+      decimal = 9658798;
+      binrayOutput.innerHTML += "9658798 == " + decimal.toString(2) + ". <br/> ";
+   </script>
+</html>
